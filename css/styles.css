@@ -1,6 +1,6 @@
 
  /* general style */
-body {
+body {  
         font-family: Roboto, sans-serif;
         font-size: 16px;
         font-style: normal;
@@ -9,11 +9,6 @@ body {
         letter-spacing: 0.32px;
 }
 
-ul {    list-style-type: none;
-        margin: 0;
-        padding: 0;
-        
-}
 
 /* header and footer logo style */
 .logo { 
@@ -34,11 +29,11 @@ ul {    list-style-type: none;
 
 .logo-white {
         color: var(--CLOUD, #F4F4FD);
- 
 }
 
 /* header style */
-.navi > li { 
+
+.header-nav { 
         font-family: Roboto;
         font-size: 16px;
         font-style: normal;
@@ -46,6 +41,30 @@ ul {    list-style-type: none;
         line-height: 24px;
         letter-spacing: 0.32px;
         text-decoration: none;
+
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+}
+
+.nav-link:link {
+        text-decoration: none;
+        
+}
+
+.nav-link:visited {
+        text-decoration: none;
+        background-color: cyan;
+}
+
+.nav-link:hover {
+        text-decoration:solid;
+        background-color: lightgreen;
+}
+
+.nav-link:active {
+        text-decoration: underline;
+        background-color: hotpink;
 }
 
 .header-contacts {
@@ -56,12 +75,36 @@ ul {    list-style-type: none;
         line-height: 24px;
         letter-spacing: 0.32px;
         text-decoration: none;
+
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
         
 }
-    
+    .contacts-link:link {
+            text-decoration: none;
+
+    }
+
+    .contacts-link:visited {
+            text-decoration: none;
+            background-color: cyan;
+    }
+
+    .contacts-link:hover {
+            text-decoration: solid;
+            background-color: lightgreen;
+    }
+
+    .contacts-link:active {
+            text-decoration:overline;
+            background-color: yellowgreen;
+    }
+
+
 
 /* hero banner style */
-h1 { 
+.hero-banner { 
         color: var(--WHITE, #FFF);
         text-align: center;
         font-family: Roboto;
@@ -71,7 +114,8 @@ h1 {
         line-height: 60px;
         letter-spacing: 1.12px;
         background: var(--NAVY-BLUE, #2E2F42);
-                1x
+        flex-shrink: 0;
+  
 } 
 .hero-btn {
         font-family: Roboto;
@@ -85,22 +129,33 @@ h1 {
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
         
 }
-
+/* strategy-punctuality-diligence-technologies */
 /* what are we doing style */
-
-
-
-
 /* our team style */
 
+h2 {
+        color: var(--NAVY-BLUE, #2E2F42);
+        text-align: center;
+        font-family: Roboto;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: 0.72px;
+        text-transform: capitalize;
+}
 
+.spdt, .wawd, .our-team {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+}
 
 
 /* footer style */
 .footer {
         background: var(--NAVY-BLUE, #2E2F42);
         color: var(--CLOUD, #F4F4FD);
-
 }
 
 
