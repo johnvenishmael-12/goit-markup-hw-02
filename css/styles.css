@@ -1,5 +1,5 @@
 
- /* general style */
+ /* GENERAL STYLE */
 body {  
         font-family: Roboto, sans-serif;
         font-size: 16px;
@@ -9,8 +9,12 @@ body {
         letter-spacing: 0.32px;
 }
 
+button {
+        cursor: pointer;
+}
 
-/* header and footer logo style */
+/* WEBSITE LOGO */
+
 .logo { 
         color: var(--IRIS, #4D5AE5);
         font-family: Raleway;
@@ -31,8 +35,7 @@ body {
         color: var(--CLOUD, #F4F4FD);
 }
 
-/* header style */
-
+/* HEADER STYLE */
 .header-nav { 
         font-family: Roboto;
         font-size: 16px;
@@ -53,18 +56,18 @@ body {
 }
 
 .nav-link:visited {
-        text-decoration: none;
-        background-color: cyan;
+        text-decoration:underline;
+        background-color:none;
 }
 
-.nav-link:hover {
-        text-decoration:solid;
-        background-color: lightgreen;
+.nav-link:hover, .nav-link:focus  {
+        text-decoration:underline;
+        background-color:none;
 }
 
 .nav-link:active {
-        text-decoration: underline;
-        background-color: hotpink;
+        text-decoration: overline;
+        background-color: none;
 }
 
 .header-contacts {
@@ -87,38 +90,38 @@ body {
     }
 
     .contacts-link:visited {
-            text-decoration: none;
-            background-color: cyan;
+            text-decoration:underline;
+            background-color: none;
     }
 
     .contacts-link:hover {
-            text-decoration: solid;
-            background-color: lightgreen;
+            text-decoration:underline;
+            background-color: none;
     }
 
     .contacts-link:active {
             text-decoration:overline;
-            background-color: yellowgreen;
+            background-color: none;
     }
 
-
-
-/* hero banner style */
-.hero-banner { 
-        color: var(--WHITE, #FFF);
+/* HERO BANNER */
+.hero {
+        background: var(--NAVY-BLUE, #2E2F42);
+        flex-shrink: 0;
         text-align: center;
         font-family: Roboto;
+        color: var(--WHITE, #FFF);
+}
+
+.hero-header { 
         font-size: 56px;
         font-style: normal;
         font-weight: 700;
         line-height: 60px;
         letter-spacing: 1.12px;
-        background: var(--NAVY-BLUE, #2E2F42);
-        flex-shrink: 0;
-  
 } 
+
 .hero-btn {
-        font-family: Roboto;
         font-size: 16px;
         font-style: normal;
         font-weight: 500;
@@ -127,11 +130,14 @@ body {
         border-radius: 4px;
         background: var(--IRIS, #4D5AE5);
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-        
+        color: var(--WHITE, #FFF);
+        display: inline-flex;
+        padding: 16px 32px;
+        align-items: flex-start;
+        gap: 10px;
+   
 }
-/* strategy-punctuality-diligence-technologies */
-/* what are we doing style */
-/* our team style */
+/* CORE VALUES-SPDT, WHAT ARE WE DOING, OUR TEAM */
 
 h2 {
         color: var(--NAVY-BLUE, #2E2F42);
@@ -145,19 +151,20 @@ h2 {
         text-transform: capitalize;
 }
 
-.spdt, .wawd, .our-team {
+.core-values-spdt, .wawd-images, .our-team, .portfolio-img {
         list-style-type: none;
         margin: 0;
         padding: 0;
 }
 
 
-/* footer style */
+/* FOOTER STYLE */
 .footer {
         background: var(--NAVY-BLUE, #2E2F42);
         color: var(--CLOUD, #F4F4FD);
 }
 
 
-
+/* PORTFOLIO PAGE PORTFOLIO PAGE PORTFOLIO PAGE */
+ 
 
